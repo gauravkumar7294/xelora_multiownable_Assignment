@@ -1,0 +1,19 @@
+{
+  "name": "xelora-contract-updated",
+  "version": "1.0.0",
+  "description": "Xelora contracts (updated version) with a Hardhat test harness (Solidity 0.4.23)",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "compile": "hardhat compile",
+    "clean": "hardhat clean",
+    "test": "hardhat test",
+    "test:shared": "hardhat test test/01-XeloraCoin.test.js test/02-Recoverable.test.js test/03-TokenVault.test.js test/04-UpgradeableToken.test.js"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "chai": "^4.3.10",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.22.0"
+  }
+}

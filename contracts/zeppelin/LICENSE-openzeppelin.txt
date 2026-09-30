@@ -1,0 +1,7 @@
+The files under contracts/zeppelin are minimal, compatible re-typings of the
+OpenZeppelin (zeppelin-solidity) 1.9.x contracts used by xelora-contract, so the
+project's original imports ("../zeppelin/contracts/...") resolve unchanged and
+no network access is needed to fetch them. OpenZeppelin is MIT licensed
+(c) 2016 Smart Contract Solutions, Inc.
+For a production audit, replace them with the official package pinned to the
+exact version originally used by the project.
